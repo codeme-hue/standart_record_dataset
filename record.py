@@ -2,15 +2,6 @@ import datetime
 import sounddevice as sd
 from scipy.io.wavfile import write
 
-
-# fname = './data/bed/0a7c2a8d_nohash_0.wav'
-# with contextlib.closing(wave.open(fname,'r')) as f:
-#     frames = f.getnframes()
-#     rate = f.getframerate()
-#     duration = frames / float(rate)
-#     print(duration)
-#     print(frames)
-#     print(rate)
 num = 0
 
 def testRecord():
